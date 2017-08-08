@@ -35,7 +35,7 @@ class World {
     // Le da comida
     food.run();
     
-    // Cycle through the ArrayList backwards b/c we are deleting
+    // Ciclo a través de la ArrayList hacia atrás b/c estamos eliminando
     for (int i = bloops.size()-1; i >= 0; i--) {
       // Todos los bloops corren y comen
       Bloop b = bloops.get(i);
