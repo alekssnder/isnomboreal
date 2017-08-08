@@ -10,8 +10,8 @@ World world;
 
 void setup() {
   size(640, 360);
-  // World starts with 20 creatures
-  // and 20 pieces of food
+  // El mundo empieza con 20 creaturas
+  // y 20 pedazos de comida
   world = new World(20);
   smooth();
 }
@@ -21,7 +21,7 @@ void draw() {
   world.run();
 }
 
-// We can add a creature manually if we so desire
+// Podemos añadir más creaturas, sí se desea.
 void mousePressed() {
   world.born(mouseX,mouseY); 
 }
