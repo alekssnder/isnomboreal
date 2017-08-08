@@ -8,12 +8,12 @@
 
 class DNA {
 
-  // The genetic sequence
+  // Secuencia Genetica
   float[] genes;
   
-  // Constructor (makes a random DNA)
+  // 'dios' (hace ADN aleatorio)
   DNA() {
-    // DNA is random floating point values between 0 and 1 (!!)
+    // ADN fluctua entre 0 y 1 (!!)
     genes = new float[1];
     for (int i = 0; i < genes.length; i++) {
       genes[i] = random(0,1);
@@ -35,7 +35,7 @@ class DNA {
     return new DNA(newgenes);
   }
   
-  // Based on a mutation probability, picks a new random character in array spots
+  // Probabilidad de mutacion
   void mutate(float m) {
     for (int i = 0; i < genes.length; i++) {
       if (random(1) < m) {
