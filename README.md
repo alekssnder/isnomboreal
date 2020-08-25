@@ -1,4 +1,4 @@
-# ISNOMBorealis
+# .AuroraBorealis
 
 Inteligencia Artificial basada en Node, Javascript.
 
