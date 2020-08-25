@@ -1,7 +1,6 @@
 # .AuroraBorealis
 
-Inteligencia Artificial basada en Node, Javascript.
-
+Inteligencia Artificial basada en Processing.
 # Borealis
 
 Es una Inteligencia Artificial que evoluciona con el tiempo en que esta, esta abierta en la ventana de tu navegador web ó IDE favorita. Aunque te recomiendo que uses Processing. 
